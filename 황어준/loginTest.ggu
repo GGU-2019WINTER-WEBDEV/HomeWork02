@@ -1,0 +1,7 @@
+<%@taglib uri = "http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:if ${sessionScope.loginUser}==null >
+	response.sendRedirect("10_loginForm.jsp");
+</c:if>
+<c:if ${sessionScope.loginUser}!=null >
+	${sessionScope.loginUser} ¥‘ æ»≥Á«œººø‰!<br>
+</c:if>

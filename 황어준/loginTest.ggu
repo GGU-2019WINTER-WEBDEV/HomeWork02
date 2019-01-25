@@ -3,5 +3,5 @@
 	response.sendRedirect("10_loginForm.jsp");
 </c:if>
 <c:if ${sessionScope.loginUser}!=null >
-	${sessionScope.loginUser} ´Ô ¾È³çÇÏ¼¼¿ä!<br>
+	${sessionScope.loginUser} ë‹˜ ì•ˆë…•í•˜ì„¸ìš”.<br>
 </c:if>

@@ -7,6 +7,6 @@
 <title>JSP</title>
 </head>
 <body>
-
+    <%@ include file="loginTest.ggu" %> <!-- login 유효성 검사 -->
 </body>
 </html>
